@@ -1,8 +1,6 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Apr 26 05:57:09 2022
 
-@author: arh
+"""
+@author: Alireza Heshmati
 """
 
 import torch

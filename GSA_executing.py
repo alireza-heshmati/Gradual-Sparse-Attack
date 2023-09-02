@@ -1,8 +1,9 @@
+"""
 @author: Alireza Heshmati
-
+"""
 import torch
-from Utils import creat_targets
-from GSA_utils import gradual_sparse_attack
+from utils import creat_targets
+from gsa_utils import gradual_sparse_attack
 import numpy as np
 
 # use cuda if it is available

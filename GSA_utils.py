@@ -1,8 +1,9 @@
+"""
 @authors: Alireza Heshmati and Dr. Sajjad Amini
 """
 
 import torch
-from Utils import objective_f
+from utils import objective_f
 
 # use cuda if it is available
 if torch.cuda.device_count() != 0:
