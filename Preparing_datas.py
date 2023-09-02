@@ -35,11 +35,11 @@ def data(net, dataset_type='cifar10'):
     if dataset_type =='imagenet':
         batch = 8
         val_mapping = pd.read_csv(
-            '/Supplies/LOC_synset_mapping.csv')  
+            '/supplies/LOC_synset_mapping.csv')  
         val_mapping_dict=val_mapping.to_dict()
         values_keys_mapping = {v:k for k,v in val_mapping_dict['labelName'].items()}
         val_solution = pd.read_csv(
-            '/Supplies/LOC_val_solution.csv')  
+            '/supplies/LOC_val_solution.csv')  
         val_solution_dict=val_solution.to_dict()
         values_keys = {v:k for k,v in val_solution_dict['ImageId'].items()}
            #create dataset 

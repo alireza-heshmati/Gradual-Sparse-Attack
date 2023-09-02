@@ -16,9 +16,9 @@ else :
 
 def make_path_or_model_name(model_type):
     if model_type == 'convnet':
-        p_or_mn = '/Supplies/cifar_best.pth'
+        p_or_mn = '/supplies/cifar_best.pth'
     elif model_type == 'mobilenetv2' :
-        p_or_mn = '/Supplies/mobilenetv2_cifar10_weights.pkl'
+        p_or_mn = '/supplies/mobilenetv2_cifar10_weights.pkl'
     elif model_type == 'robustnet':
         p_or_mn = 'Gowal2021Improving_R18_ddpm_100m'
     else :
