@@ -2,4 +2,4 @@
 
 This repository is about how to design adversarial attack using Gradual Sparse Attack (GSA) algorithm.
 
-Please, For seeing result, go to GSA_scad.
+Please, see result in GSA_scad.
